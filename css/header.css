@@ -1,0 +1,39 @@
+body {
+    background: #edf2f7 !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.logo {
+    font-size: 30px;
+    word-wrap: break-word;
+    color: #222226;
+    font-weight: 800;
+    margin: 0;
+    word-break: break-all;
+}
+
+.logo-sub {
+    font-size: 13px;
+    word-wrap: break-word;
+    color: #222226;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 10px;
+    word-break: break-all;
+}
+
+.navbar a {
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #222226 !important;
+    font-weight: 600 !important;
+    margin: 0;
+    word-break: break-all;
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章详情</title>
+    <!-- 新 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./font/bootstrap-icons.css">
+
+    <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <style>
+        
+
+        .sidebar {
+            font-size: 13px;
+            color: #565656;
+            margin: 0;
+            word-break: break-all;
+            -webkit-font-smoothing: antialiased;
+            width: 300px;
+            box-sizing: inherit;
+
+        }
+
+        .sidebar a {
+            color: #222 !important;
+        }
+
+        .tag-list a{
+            color: #222;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .article-list hr{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .copyright-notice {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20px!important;
+            margin: 0 0 16px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            color: #9c9c9c!important;
+        }
+
+        .copyright-notice a {
+            color: #8d8d8d!important;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        
+        <!-- start header -->
+        <div class="container-fluid bg-white">
+            <div class="row">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 px-lg-5">
+
+                    
+                    <!-- Brand -->
+                    <a class="navbar-brand col-sm-3 justify-content-start" href="./index.html">
+                        <span class="logo">Logo</span>
+                        <span class="pt-3 logo-sub">一段说明文字</span>
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Toggler/collapsibe Button -->
+                    <div class="collapse navbar-collapse col-sm-9 justify-content-end" id="collapsibleNavbar">
+                        
+                        <!-- Links -->
+                        <ul class="navbar-nav me-5">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="./index.html">首页</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">JAVA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CSS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CSS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CSS</a>
+                            </li>
+
+
+                        </ul>
+                        
+                        <ul class="navbar-nav  ">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="./login.html">登录</a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="暂时未开放注册">注册</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+        <!-- end header -->
+
+        <!-- start main -->
+        
+        <main class=" container mt-4 ">
+
+            <div class="row">
+                
+                <!-- start article -->
+                <div class="col-sm-9 col-md-9">
+                    <div class="article-box">
+                        <!-- start 文章详情 -->
+                        <article class="rounded-8 bg-white p-5 shadow-sm">
+                            <!-- start 文章标题 -->
+                            <h1>这里是文章标题</h1>
+                            <!-- end 文章标题 -->
+
+                            <!-- start 文章标签 -->
+                            <div class="tag-list mt-2 mb-2">
+                                <span class="badge bg-light text-dark">标签1</span>
+                                <span class="badge bg-light text-dark">标签2</span>
+                                <span class="badge bg-light text-dark">标签3</span>
+                                <span class="badge bg-light text-dark">标签4</span>
+                            </div>
+                            <!-- end 文章标签 -->
+
+                            <hr>
+
+                            <!-- start 广告位 -->
+                            <!-- end 广告位 -->
+
+                            <!-- start 文章正文 -->
+                            <div class="article-content mb-5" id="article-content">
+                                这里是正文
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                <p>这里是正文，大量的正文这里是正文，大量的正文这里是正文，大量的正文</p>
+                                这里是正文
+                            </div>
+                            <!-- end 文章正文 -->
+
+                            <hr>
+                            <!-- start 文章版权信息 -->
+                            <div class="copyright-notice ">
+                               <small>这里是版权信息，更多请了解 <a target="_blank" href="http://www.baidu.com">http://www.baidu.com</a></small>
+                            </div>
+                            <!-- end 文章版权信息 -->
+                            
+                            <!-- start 广告位 -->
+                            <!-- end 广告位 -->
+
+                        </article>
+                        <!-- end 文章详情 -->
+
+
+                        <!-- start 推荐 -->
+                        <div class="article-box list-group rounded-8 bg-white p-5 shadow-sm mt-5">
+                            <div class="article-list">
+                                <article>
+                                    <h2>
+                                        <a href="./article_detail.html" class="link-dark">这里是标题</a>
+                                    </h2>
+                                    <div class="tag-list my-2">
+                                        <span class="label label-default"><a href="">标签1</a></span>
+                                        <span class="label label-default"><a href="">标签2</a></span>
+                                        <span class="label label-default"><a href="">标签3</a></span>
+                                        <span class="label label-default"><a href="">标签4</a></span>
+                                    </div>
+                                    <div class="description">
+                                        这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字...
+                                    </div>
+                                    <hr>
+                                </article>
+                                <article>
+                                    <h2>
+                                        <a href="./article_detail.html" class="link-dark">这里是标题</a>
+                                    </h2>
+                                    <div class="tag-list my-2">
+                                        <span class="label label-default"><a href="">标签1</a></span>
+                                        <span class="label label-default"><a href="">标签2</a></span>
+                                        <span class="label label-default"><a href="">标签3</a></span>
+                                        <span class="label label-default"><a href="">标签4</a></span>
+                                    </div>
+                                    <div class="description">
+                                        这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字...
+                                    </div>
+                                    <hr>
+                                </article>
+                                <article>
+                                    <h2>
+                                        <a href="./article_detail.html" class="link-dark">这里是标题</a>
+                                    </h2>
+                                    <div class="tag-list my-2">
+                                        <span class="label label-default"><a href="">标签1</a></span>
+                                        <span class="label label-default"><a href="">标签2</a></span>
+                                        <span class="label label-default"><a href="">标签3</a></span>
+                                        <span class="label label-default"><a href="">标签4</a></span>
+                                    </div>
+                                    <div class="description">
+                                        这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字...
+                                    </div>
+                                    <hr>
+                                </article>
+                                <article>
+                                    <h2>
+                                        <a href="./article_detail.html" class="link-dark">这里是标题</a>
+                                    </h2>
+                                    <div class="tag-list my-2">
+                                        <span class="label label-default"><a href="">标签1</a></span>
+                                        <span class="label label-default"><a href="">标签2</a></span>
+                                        <span class="label label-default"><a href="">标签3</a></span>
+                                        <span class="label label-default"><a href="">标签4</a></span>
+                                    </div>
+                                    <div class="description">
+                                        这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字...
+                                    </div>
+                                    <hr>
+                                </article>
+                                <article>
+                                    <h2>
+                                        <a href="./article_detail.html" class="link-dark">这里是标题</a>
+                                    </h2>
+                                    <div class="tag-list my-2">
+                                        <span class="label label-default"><a href="">标签1</a></span>
+                                        <span class="label label-default"><a href="">标签2</a></span>
+                                        <span class="label label-default"><a href="">标签3</a></span>
+                                        <span class="label label-default"><a href="">标签4</a></span>
+                                    </div>
+                                    <div class="description">
+                                        这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字这里是描述文字...
+                                    </div>
+                                    <hr>
+                                </article>
+    
+    
+                            </div>
+                        </div>
+                        <!-- end 推荐 -->
+                    </div>
+                </div>
+                <!-- end article -->
+
+
+                <!-- start sidebar -->
+                <div class="col-sm-3 col-md-3">
+                    <div class="sidebar mx-auto d-none d-sm-none d-md-none d-lg-block">
+
+                        <ul class=" list-group list-group-flush bg-white p-2 shadow-sm mb-3">
+                            <h2>侧边栏</h2>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">张三</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end sidebar -->
+            </div>
+
+        </main>
+        <!-- end main -->
+
+        <!-- footer start -->
+        <div class="d-flex flex-md-column flex-sm-column fixed-bottom mt-5">
+            <div class=" text-end mb-5 me-5">
+                <a href="#top" class="backtop p-2 rounded-circle bg-secondary link-dark">
+                    <i class="bi bi-chevron-double-up m-auto"></i>
+                </a>
+
+            </div>
+            
+            <footer class="  bg-white p-2 shadow-sm  text-center">
+                <div class="container">© 2021-2022 All rights reserved by sinmu.</div>
+            </footer>
+        </div>
+        <!-- footer end -->
+    </div>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
